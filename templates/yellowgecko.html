@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<main class="container">
+    <div class="left-column">
+        <img src="{{url_for('static', filename='images/gecko_about.jpg')}}" style="position: absolute; left: 7px; top:90px"/>
+    </div>
+
+    <div class="right-column">
+
+        <div class="product-description">
+            <span>Leopard Gecko</span>
+            <h1>Yellow Leopard Gecko</h1>
+            <p>These fun little guys are a great pet for anyone, as they are friendly and love to be handled, whilst having relatively cheap setup and only eat small insects. Like most reptiles, a small vivarium is needed with a heat lamp and somewhere for them to hide. They like temperatures of around 31 degrees to bask in. It is not recommended to house more than one Gecko together, so make sure if purchasing multiple to have room for multiple vivariums to house </p>
+        </div>
+
+        <div class="product-price">
+            <span>£29.99</span>
+            <a href="#" class="cart-btn">Add to cart</a>
+        </div>
+    </div>
+</main>
+    {% endblock %}

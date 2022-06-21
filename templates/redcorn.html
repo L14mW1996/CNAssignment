@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<main class="container">
+    <div class="left-column">
+        <img src="{{url_for('static', filename='images/baby_corn.jpg')}}" style="position: absolute; left: 7px; top:90px"/>
+    </div>
+
+    <div class="right-column">
+
+        <div class="product-description">
+            <span>Snakes</span>
+            <h1>Baby Red Corn Snake</h1>
+            <p> Corn Snakes are perfect first snake pets for any age. Beautifully patterned, this red corn snake will grow to a maximum of 6ft. They eat small rodents and are a low maintainence pet, who also love to be handled by humans. It is recommended to buy a Vivarium to house them in, using substrate on the bottom giving them somewhere to cool down and hide, along with some logs to climb around on and a sheltered area to sleep in. heat lamp is necessary as they need a consistent temperature of around 28 to 32 degrees to survive. </p>
+        </div>
+
+        <div class="product-price">
+            <span>£39.99</span>
+            <a href="#" class="cart-btn">Add to cart</a>
+        </div>
+    </div>
+</main>
+    {% endblock %}

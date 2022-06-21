@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<main class="container">
+    <div class="left-column">
+        <img src="{{url_for('static', filename='images/chameleon.jpg')}}"
+            style="position: absolute; left: 7px; top:90px" />
+    </div>
+
+    <div class="right-column">
+
+        <div class="product-description">
+            <span>Chameleons</span>
+            <h1>Baby Chameleon</h1>
+            <p>Chameleons are one of the most popular arboreal lizards to keep in the UK. They are very active, inquisitive and firm favourites with keepers that do not have a lot of time to handle their pet. The longest lived chameleons could live 5-10 years. Their diet mostly consists of invertebrates though some species will supplement their diet with very small mammals or vegetation. Chameleons In captivity are particularly fond of crickets and locust but they can tackle larger prey like mealworms or grubs as a treat. They are not recommended for beginner reptile keepers as they can be pretty high maintainence & need constant checking of temperature and humidity to survive.</p>
+        </div>
+        
+        <div class="product-price">
+            <span>£79.99</span>
+            <a href="#" class="cart-btn">Add to cart</a>
+        </div>
+</main>
+{% endblock %}

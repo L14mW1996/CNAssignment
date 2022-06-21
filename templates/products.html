@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h3>Products</h3>
+<!-- <div class = "products">
+    <img src="{{url_for('static', filename='images/baby_corn.jpg')}}" />
+    <img src="{{url_for('static', filename='images/gecko_about.jpg')}}" />
+</div> -->
+
+<div class="product-flex-container">
+    <div>
+        <img src="{{url_for('static', filename='images/baby_corn.jpg')}}" style ="height: 100%; width: 100%;"/>
+        <br>
+        <a href="{{url_for('views.redcorn')}}">Red Corn Snake - £39.99</a>
+        <br>
+        <button>Buy Now</button>
+    </div>
+    <div>
+        <img src="{{url_for('static', filename='images/gecko_about.jpg')}}" style ="height: 100%; width: 100%"/>
+        <br>
+        <a href="{{url_for('views.yellowgecko')}}">Leopard Gecko - £29.99</a>
+        <br>
+        <button>Buy Now</button>
+    </div>
+    <div>
+        <img src="{{url_for('static', filename='images/beardie.png')}}" style ="height: 100%; width: 100%"/>
+        <br>
+        <a href="{{url_for('views.beardeddragon')}}">Bearded Dragon - £59.99</a>
+        <br>
+        <button>Buy Now</button>
+    </div>  
+</div>
+
+<div class="product-flex-container">
+    <div>
+        <img src="{{url_for('static', filename='images/ballpython.jpg')}}"/>
+        <br>
+        <a href="{{url_for('views.ballpython')}}">Baby Ball Python - £39.99</a>
+        <br>
+        <button>Buy Now</button>
+    </div>
+    <div>
+        <img src="{{url_for('static', filename='images/crestedgecko.jpg')}}"/>
+        <br>
+        <a href="{{url_for('views.crestedgecko')}}">Crested Gecko - £29.99</a>
+        <br>
+        <button>Buy Now</button>
+    </div>
+    <div>
+        <img src="{{url_for('static', filename='images/chameleon.jpg')}}"/>
+        <br>
+        <a href="{{url_for('views.chameleon')}}">Chameleon - £79.99</a>
+        <br>
+        <button>Buy Now</button>
+    </div>  
+</div>
+
+{% endblock %}

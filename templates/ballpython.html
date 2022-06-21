@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<main class="container">
+    <div class="left-column">
+        <img src="{{url_for('static', filename='images/ballpython.jpg')}}"
+            style="position: absolute; left: 7px; top:90px" />
+    </div>
+
+    <div class="right-column">
+
+        <div class="product-description">
+            <span>Snakes</span>
+            <h1>Ball Python</h1>
+            <p>A snake which is great for beginnner reptile keepers, Ball Pythons love being held and only need a simple set up to stay happy. Similarly to Corn Snakes, these docile snakes won't grow too big and come in many beautiful morphs. Like any smaller snake, they eat small rodents and need feeding every fortnight. It is recommended to buy a Vivarium to house them in, using substrate on the bottom giving them somewhere to cool down and hide, along with some logs to climb around on and a sheltered area to sleep in. heat lamp is necessary as they need a consistent temperature of around 28 to 32 degrees to survive.</p>
+        </div>
+        
+        <div class="product-price">
+            <span>£39.99</span>
+            <a href="#" class="cart-btn">Add to cart</a>
+        </div>
+</main>
+{% endblock %}

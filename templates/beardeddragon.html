@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<main class="container">
+    <div class="left-column">
+        <img src="{{url_for('static', filename='images/beardie.png')}}"
+            style="position: absolute; left: 7px; top:90px" />
+    </div>
+
+    <div class="right-column">
+
+        <div class="product-description">
+            <span>Bearded Dragon</span>
+            <h1>Bearded Dragon</h1>
+            <p>Beardies are easy to care for, providing you have the right equipment. Their relatively small size, friendly nature and characterful behaviour make them and interesting and rewarding pet. They like to eat small insects and as with any reptiles require a vivarium and heat lamp with a hot temperature of around 37 degrees needed. It isn't recommended to house multiple together as they may end up fighting and causing eachother injury. Bearded dragons thrive in a low humidity environment with hard decorations to climb over and bask on. When selecting a bedding we try to ensure that the pieces are unlikely to stick to the dragon's food, and are not going to increase the enclosures humidity.</p>
+        </div>
+        
+        <div class="product-price">
+            <span>£79.99</span>
+            <a href="#" class="cart-btn">Add to cart</a>
+        </div>
+</main>
+{% endblock %}

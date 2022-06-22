@@ -1,8 +1,6 @@
 body {
     background-image: linear-gradient(to bottom right, black, rgb(41, 41, 41));
-    height:100%;
-    width: 100%;
-    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 h3 {
@@ -75,8 +73,19 @@ p {
 
 .about img {
     float: left;
-    padding-right: 20px;
-    padding-bottom: 5px;
+    border:solid 5px #49beb7 ;
+    margin:10px;
+}
+
+.care2 img{
+    float: right;
+    border:solid 5px #49beb7 ;
+}
+
+.care2 h5{
+    color: #49beb7;
+    text-decoration: underline;
+    text-align: left;
     padding-left: 10px;
 }
 
@@ -85,6 +94,11 @@ p {
     text-align: left;
     padding-left: 10px;
     padding-bottom: 5px;
+}
+
+.about h5{
+    color: #49beb7;
+    text-decoration: underline;
 }
 
 .product-flex-container {
@@ -228,6 +242,19 @@ p {
         margin-left: auto;
         margin-right: auto;
     }
+
+    .about h5{
+        color: #49beb7;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    .care2 h5{
+        color: #49beb7;
+        text-decoration: underline;
+        text-align: center;
+    }
+    
 }
 
 .carousel{

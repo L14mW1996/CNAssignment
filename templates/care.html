@@ -1,3 +1,43 @@
 {% extends 'base.html' %}
+
 {% block content %}
+<div class="about">
+    <h3>Animal Care</h3>
+    <img src="{{url_for('static', filename='images/handle-corn.jpg')}}" alt="image of store" height=10% width=20% />
+    <h5>Corn Snake Handling</h5>
+    <p>You will need to wait a little while after bringing your new pet home to let it settle in. This usually takes
+        about 2 weeks, but you shouldn’t start handling until it’s eating regularly. Once your corn snake is ready for
+        handling, take it slow at first — just like any relationship. Start with brief handling sessions (no longer than
+        5 minutes), and don’t return the snake until it is calm. This teaches your pet how to behave during handling by
+        using rudimentary positive reinforcement. Once this has been accomplished, you can work up to 10 minutes, and
+        then gradually longer from there. Corn snake handling should occur least 1-2x weekly, but no more than once
+        daily. Snakes do not require social interaction for their mental health, but handling helps the snake stay tame
+        and can be a good opportunity for exercise as well. Use your hand(s) to approach your snake from the side —
+        approaching from above may trigger a defensive instinct, as predators often attack from above in the wild. As
+        you pick it up, hold as much of its body as you can, and avoid grabbing the tail or restraining the head.</p>
+    <br>
+    <br>
+    <br>
+    <div class="care2">
+        <h5>Chameleon Care</h5>
+        <img src="{{url_for('static', filename='images/cham-care.png')}}" alt="image of store" height=10% width=20% />
+    </div>
+    <p>The natural habits of chameleons make them tricky to care for. Chameleons are arboreal, meaning they live
+        exclusively in trees. They need cages with ample foliage for climbing and privacy, and the enclosure must be
+        quite large. For the larger chameleons a cage measuring 3 feet by 3 feet by 4 feet tall should be provided, but
+        the more space the better. Ample ventilation is required, and a cage screened on three sides is best with poly
+        mesh or vinyl coated wire preferred to prevent toe injuries. Branches of various diameters need to be provided
+        for climbing and the bulk of the cage space should be filled with these branches or live foliage. Ensure that
+        the plants are not toxic, as the chameleon may eat the foliage. Substrate made up of small particles (such as
+        gravel, sand, bark, or moss) should be avoided to prevent the chameleon from accidentally eating it while
+        catching prey. Several basking areas of various temperatures must also be provided in a chameleon's enclosure.
+        Some chameleons are happier at higher temperatures, others at lower temperatures. Be sure to research the
+        specifics for your breed. Chameleons get their water from droplets on leaves so as a rule, they will not take
+        water from a dish. Adequate water intake must be provided either through a drip system or by misting the
+        enclosure at least twice daily. Drip systems can be purchased or fashioned from a water container with a pinhole
+        placed on top of the cage, or even by placing ice cubes on top of the cage to melt slowly and drip into the
+        cage. If a drip system is used, keep the watering location consistent so the chameleon knows where to find
+        water. Misting will also help keep the humidity levels up. With a drip system, excess water should be collected
+        and removed to prevent the humidity from getting too high.</p>
+</div>
 {% endblock %}

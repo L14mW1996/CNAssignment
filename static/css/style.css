@@ -8,6 +8,7 @@ h3 {
     font-weight: bold;
     text-align: center;
     margin: 10px;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 h4 {
@@ -15,12 +16,14 @@ h4 {
     font-weight: bold;
     text-align: center;
     margin: 10px;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 
 p {
     color: white;
     text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .center {
@@ -31,6 +34,7 @@ p {
 
 .navbar.navbar-expand-lg a {
     color: white;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .navbar.navbar-expand-lg a:hover {
@@ -56,6 +60,7 @@ p {
 .footer {
     background-color: #49beb7;
     color: white;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .footer a:hover {
@@ -69,24 +74,26 @@ p {
     font-weight: bold;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .about img {
     float: left;
-    border:solid 5px #49beb7 ;
-    margin:10px;
+    border: solid 5px #49beb7;
+    margin: 10px;
 }
 
-.care2 img{
+.care2 img {
     float: right;
-    border:solid 5px #49beb7 ;
+    border: solid 5px #49beb7;
 }
 
-.care2 h5{
+.care2 h5 {
     color: #49beb7;
     text-decoration: underline;
     text-align: left;
     padding-left: 10px;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .about p {
@@ -94,11 +101,13 @@ p {
     text-align: left;
     padding-left: 10px;
     padding-bottom: 5px;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
-.about h5{
+.about h5 {
     color: #49beb7;
     text-decoration: underline;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .product-flex-container {
@@ -106,7 +115,7 @@ p {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding:5px;
+    padding: 5px;
 }
 
 .product-flex-container>div {
@@ -123,6 +132,7 @@ p {
 
 .product-flex-container>div a {
     color: white;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .product-flex-container>div a:hover {
@@ -163,14 +173,16 @@ p {
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .product-description h1 {
     font-weight: 300;
     font-size: 52px;
-    color:#49beb7;
+    color: #49beb7;
     letter-spacing: -2px;
     text-align: left;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .product-description p {
@@ -179,6 +191,7 @@ p {
     color: white;
     line-height: 24px;
     text-align: left;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .product-price {
@@ -191,6 +204,7 @@ p {
     font-weight: 300;
     color: white;
     margin-right: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .cart-btn {
@@ -202,6 +216,7 @@ p {
     text-decoration: none;
     padding: 12px 30px;
     transition: all .5s;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .cart-btn:hover {
@@ -213,68 +228,255 @@ p {
         display: none;
     }
 
-    .left-column{
+    .left-column {
         display: none;
     }
 
-    .right-column{
+    .right-column {
         width: 390px;
     }
 
-    .product-description h1{
+    .product-description h1 {
         justify-content: center;
         text-align: center;
     }
 
-    .product-description p{
+    .product-description p {
         justify-content: center;
         text-align: center;
     }
 
-    .product-description span{
-        display:table;
+    .product-description span {
+        display: table;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .product-price span{
-        display:table;
+    .product-price span {
+        display: table;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .about h5{
+    .about h5 {
         color: #49beb7;
         text-decoration: underline;
         text-align: center;
     }
 
-    .care2 h5{
+    .care2 h5 {
         color: #49beb7;
         text-decoration: underline;
         text-align: center;
     }
-    
+
 }
 
-.carousel{
-    width:50%;
-    height:50%;
+.carousel {
+    width: 50%;
+    height: 50%;
     margin-left: auto;
     margin-right: auto;
-    border:solid 5px #49beb7;
+    border: solid 5px #49beb7;
 }
 
-.carousel-item a{
-    color:#49beb7;
+.carousel-item a {
+    color: #49beb7;
     font-weight: bold;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
-.carousel-item h5{
+.carousel-item h5 {
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.carousel span {
+    color: #49beb7;
+    font-weight: bold;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.cart-contain {
+    width: 75%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    margin: auto;
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;
+    color: #49beb7;
+}
+
+.action {
+    font-size: 14px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 600;
+    color: #E44C4C;
+    cursor: pointer;
+    border-bottom: 1px solid #E44C4C;
+}
+
+.Cart-Items {
+    margin: auto;
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-box {
+    width: 15%;
+    text-align: center;
+    padding: 5px;
+}
+
+.image-box img {
+    border: solid 3px #49beb7;
+}
+
+.details {
+    height: 100%;
+}
+
+.title {
+    padding-top: 5px;
+    line-height: 10px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 800;
+    color: #49beb7;
+}
+
+.counter {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #49beb7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 900;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #49beb6b6
+}
+
+.count {
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 900;
+    color: #49beb7;
+}
+
+.prices {
+    height: 100%;
+    text-align: right;
+}
+
+.amount {
+    padding-top: 20px;
+    font-size: 26px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 800;
     color: white;
 }
 
-.carousel span{
+.remove {
+    padding-top: 5px;
+    font-size: 14px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 600;
+    color: #E44C4C;
+    cursor: pointer;
+}
+
+
+.checkout-btn button {
+    background-color: #49beb7;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    width: 17%;
+    height: 50px;
+    font-family: 'Nanum Gothic', sans-serif;
+    position: relative;
+    left: 975px;
+    padding: 10px;
+}
+
+.total {
+    padding-top: 20px;
+    font-size: 26px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 800;
+    color: white;
+    text-align: right;
+    position: relative;
+    right: 100px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+label{
     color: #49beb7;
-    font-weight: bold;
+    font-family: 'Nanum Gothic', sans-serif;
 }

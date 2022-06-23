@@ -1,4 +1,9 @@
-$('.carousel').carousel(
-    {interval: 500}
-)
+console.log("RRRRRRRRR")
 
+function submit(){
+    alert("Thanks for your feedback!");
+}
+
+function addCart(){
+    alert("Your item has been added!");
+}

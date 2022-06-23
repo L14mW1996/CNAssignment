@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<body>
 <main class="container">
     <div class="left-column">
         <img src="{{url_for('static', filename='images/gecko_about.jpg')}}" style="position: absolute; left: 7px; top:90px"/>
@@ -16,8 +17,9 @@
 
         <div class="product-price">
             <span>£29.99</span>
-            <a href="#" class="cart-btn">Add to cart</a>
+            <button type = "button" class = "cart-btn" onclick="window.addCart()">Add to cart</button>
         </div>
     </div>
 </main>
+</body>
     {% endblock %}

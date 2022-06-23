@@ -1,3 +1,52 @@
 {% extends 'base.html' %}
+
 {% block content %}
+<h3> Your Cart</h3>
+
+<div class = "cart-contain">
+    <div class="header">
+        <h3 class="heading">Items</h3>
+        <h5 class="action">Remove all</h5>
+    </div>
+    <div class="Cart-Items">
+        <div class="image-box">
+            <img src="{{url_for('static', filename='images/crestedgecko.jpg')}}" height=120px/>
+        </div>
+        <div class="details">
+            <h5 class="title">Crested Gecko</h5>
+        </div>
+        <div class="counter">
+            <div class="btn">+</div>
+            <div class="count">2</div>
+            <div class="btn">-</div>
+        </div>
+        <div class="prices">
+            <div class="amount">£29.99</div>
+            <div class="remove"><u>Remove</u></div>
+            </div>
+        </div>
+        <div class="Cart-Items">
+            <div class="image-box">
+                <img src="{{url_for('static', filename='images/gecko_about.jpg')}}" height=120px/>
+            </div>
+            <div class="details">
+                <h5 class="title">Leopard Gecko</h5>
+            </div>
+            <div class="counter">
+                <div class="btn">+</div>
+                <div class="count">1</div>
+                <div class="btn">-</div>
+            </div>
+            <div class="prices">
+                <div class="amount">£29.99</div>
+                <div class="remove">
+                    <u>Remove</u></div>
+                </div>
+            </div>
+            <div class ="total"> Total: </div>
+            <div class ="checkout-btn">
+                <button>Checkout</button>
+            </div>
+            <br>
+</div>
 {% endblock %}

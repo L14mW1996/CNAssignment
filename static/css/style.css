@@ -53,7 +53,7 @@ p {
         display: inline-block;
         float: none;
     }
-
+    
 
 }
 
@@ -223,55 +223,6 @@ p {
     background-color: #49beb6b6
 }
 
-@media (max-width:986px) {
-    .about img {
-        display: none;
-    }
-
-    .left-column {
-        display: none;
-    }
-
-    .right-column {
-        width: 390px;
-    }
-
-    .product-description h1 {
-        justify-content: center;
-        text-align: center;
-    }
-
-    .product-description p {
-        justify-content: center;
-        text-align: center;
-    }
-
-    .product-description span {
-        display: table;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .product-price span {
-        display: table;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .about h5 {
-        color: #49beb7;
-        text-decoration: underline;
-        text-align: center;
-    }
-
-    .care2 h5 {
-        color: #49beb7;
-        text-decoration: underline;
-        text-align: center;
-    }
-
-}
-
 .carousel {
     width: 50%;
     height: 50%;
@@ -346,6 +297,7 @@ p {
 
 .image-box img {
     border: solid 3px #49beb7;
+    height:120px;
 }
 
 .details {
@@ -444,21 +396,13 @@ input[type=text],
 select,
 textarea {
     width: 100%;
-    /* Full width */
     padding: 12px;
-    /* Some padding */
     border: 1px solid #ccc;
-    /* Gray border */
     border-radius: 4px;
-    /* Rounded borders */
     box-sizing: border-box;
-    /* Make sure that padding and width stays in place */
     margin-top: 6px;
-    /* Add a top margin */
     margin-bottom: 16px;
-    /* Bottom margin */
-    resize: vertical
-        /* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: vertical;
 }
 
 /* Style the submit button with a specific background color etc */
@@ -471,12 +415,123 @@ input[type=submit] {
     cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
 label{
     color: #49beb7;
     font-family: 'Nanum Gothic', sans-serif;
+}
+
+.product-flex-container button{
+    background-color: #49beb7;
+    color: white;
+    border-radius: 8px;
+}
+
+.product-flex-container button:hover{
+    background-color: #49beb6b0;
+}
+
+button{
+    background-color: #49beb7;
+    color: white;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: #49beb6b0;
+}
+
+@media (max-width:986px) {
+    .about img {
+        display: none;
+    }
+
+    .left-column {
+        display: none;
+    }
+
+    .right-column {
+        width: 390px;
+    }
+
+    .product-description h1 {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .product-description p {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .product-description span {
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .product-price span {
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about h5 {
+        color: #49beb7;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    .care2 h5 {
+        color: #49beb7;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    .checkout-btn button {
+        width:45%;
+        position: relative;
+        left:65vw;
+    }
+    
+    .image-box {
+        width: 0;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .image-box img{
+        height:10vh;
+        position:fixed;
+        left:5px;
+    }
+
+    .title {
+        position: fixed;
+        left: 32vw;
+    }
+
+    .btn{
+        height:20px;
+        width:20px;
+        position:relative;
+        top:50px;
+    }
+    
+    .count{
+        position:relative;
+        top:50px;
+    }
+
+    .amount{
+        font-size: 18px;
+        position: relative;
+        top:15px;
+        left:15px;
+    }
+
+    .remove{
+        position:relative;
+        top: 20px;
+        left:15px;
+    }
 }

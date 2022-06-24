@@ -26,11 +26,15 @@ p {
     font-family: 'Nanum Gothic', sans-serif;
 }
 
+/* css class to center objects */
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
+/* navbar */
 
 .navbar.navbar-expand-lg a {
     color: white;
@@ -41,21 +45,7 @@ p {
     color: black;
 }
 
-@media (min-width: 987px) {
-    .navbar-nav {
-        float: none;
-        margin: 0 auto;
-        display: block;
-        text-align: center;
-    }
-
-    .navbar-nav>li {
-        display: inline-block;
-        float: none;
-    }
-    
-
-}
+/* footer css */
 
 .footer {
     background-color: #49beb7;
@@ -68,20 +58,7 @@ p {
 }
 
 
-
-.about h3 {
-    color: #49beb7;
-    font-weight: bold;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-family: 'Nanum Gothic', sans-serif;
-}
-
-.about img {
-    float: left;
-    border: solid 5px #49beb7;
-    margin: 10px;
-}
+/* care page CSS */
 
 .care2 img {
     float: right;
@@ -96,6 +73,21 @@ p {
     font-family: 'Nanum Gothic', sans-serif;
 }
 
+/* CSS for about page */
+
+.about h3 {
+    color: #49beb7;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.about img {
+    float: left;
+    border: solid 5px #49beb7;
+    margin: 10px;
+}
 .about p {
     color: white;
     text-align: left;
@@ -109,6 +101,8 @@ p {
     text-decoration: underline;
     font-family: 'Nanum Gothic', sans-serif;
 }
+
+/* CSS for product page */
 
 .product-flex-container {
     display: flex;
@@ -248,7 +242,9 @@ p {
     font-family: 'Nanum Gothic', sans-serif;
 }
 
-.cart-contain {
+
+/* CSS for cart page */
+.cart-contain { 
     width: 75%;
     height: 90%;
     margin-left: auto;
@@ -405,7 +401,6 @@ textarea {
     resize: vertical;
 }
 
-/* Style the submit button with a specific background color etc */
 input[type=submit] {
     background-color: #04AA6D;
     color: white;
@@ -440,7 +435,7 @@ button:hover{
     background-color: #49beb6b0;
 }
 
-@media (max-width:986px) {
+@media (max-width:986px) { /* Media Query for smaller screens */
     .about img {
         display: none;
     }
@@ -533,5 +528,19 @@ button:hover{
         position:relative;
         top: 20px;
         left:15px;
+    }
+}
+
+@media (min-width: 987px) { /* Media query for larger screens */
+    .navbar-nav {
+        float: none;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+
+    .navbar-nav>li {
+        display: inline-block;
+        float: none;
     }
 }

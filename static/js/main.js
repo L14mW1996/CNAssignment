@@ -1,5 +1,3 @@
-console.log("RRRRRRRRR")
-
 function submit(){
     alert("Thanks for your feedback!");
 }
